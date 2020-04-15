@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.loyalar.fingerprinttestapplication.PostFormActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/GotEthics.ActionBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="@android:color/primary_text_dark"
+        tools:targetApi="lollipop"/>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_buttons_container"
+                android:layout_below="@id/my_toolbar"
+                android:clickable="true"
+                android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/linearlayout_create_post_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout_create_post_box_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/follow_case_choice_item_padding">
+
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/create_post_box_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/FormSwitchTheme"
+                        app:switchMinWidth="@dimen/post_form_switch_min_width"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/create_post_box_switch"
+                        android:orientation="vertical"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:id="@+id/create_post_box_headline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/follow_case_choice_title"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/follow_case_choice_headlines_size"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_create_post_box_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout_create_post_box"
+                android:orientation="vertical"
+                android:padding="@dimen/follow_case_choice_item_padding">
+
+                <TextView
+                    android:id="@+id/create_post_box_text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/create_post_box_text_1"
+                    android:textColor="@color/primary_text"/>
+
+                <TextView
+                    android:id="@+id/create_post_box_text_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/create_post_box_text_2"
+                    android:textColor="@color/primary_text"/>
+
+                <TextView
+                    android:id="@+id/create_post_box_text_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_post_box_text_3"
+                    android:textColor="@color/primary_text"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/pin_fields_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout_create_post_box_text"
+                android:padding="@dimen/follow_case_choice_item_padding">
+
+                <TextView
+                    android:id="@+id/create_pin_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_pin_headline_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/headline_text_size"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/edittext_create_pin_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/create_pin_headline">
+
+                    <EditText
+                        android:id="@+id/edittext_create_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberPassword"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textColorHint="@android:color/tertiary_text_light"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/edittext_confirm_create_pin_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edittext_create_pin_layout">
+
+                    <EditText
+                        android:id="@+id/edittext_confirm_create_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberPassword"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textColorHint="@android:color/tertiary_text_light"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/forgot_pin_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edittext_confirm_create_pin_layout"
+                    android:background="?android:selectableItemBackground"
+                    android:text="@string/forgot_pin_text"
+                    android:textColor="@color/primary_text"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottomButtonBackgroundColor"
+        android:clickable="true"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/right_button_border">
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="@dimen/bottom_button_vertical_padding"
+                android:paddingTop="@dimen/bottom_button_vertical_padding"
+                android:text="@string/follow_case_choice_back_button_text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/bottom_button_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/bottomButtonBackgroundColor">
+
+            <Button
+                android:id="@+id/button_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingBottom="@dimen/bottom_button_vertical_padding"
+                android:paddingTop="@dimen/bottom_button_vertical_padding"
+                android:text="@string/follow_case_choice_send_button_text"
+                android:textAllCaps="false"
+                android:textSize="@dimen/bottom_button_text_size"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

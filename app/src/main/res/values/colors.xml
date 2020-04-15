@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/defaultPrimaryColor</color> <!-- #1F4979 -->
+    <color name="colorPrimaryDark">@color/defaultPrimaryColorDark</color>
+    <color name="colorAccent">@color/defaultAccentColor</color>
+
+    <color name="list_item_dashboard_whistleblower_circle_color">#607D8B</color>
+    <color name="secure_postbox_right_link_icon_color">#ffa500</color>
+    <color name="splash_screen_background_color">#607D8B</color>
+    <color name="faq_link_icon_color">#ffa500</color>
+    <color name="initial_setup_logo_background_color">#607D8B</color>
+
+    <color name="defaultPrimaryColor">#607D8B</color>
+    <color name="defaultPrimaryColorDark">#455A64</color>
+    <color name="defaultAccentColor">#FF9800</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="colorDashboardDivider">@color/colorPrimary</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="primary_text_inverted">#FFFFFF</color>
+    <color name="background_color">#ffffff</color>
+    <color name="background_color_inverse">#000000</color>
+    <color name="red_warning_text_color">#E51C23</color>
+    <color name="faded_grey">#bbbbbb</color>
+    <color name="backArrowColor">#ffffff</color>
+    <color name="list_item_dashboard_whistleblower_circle_text_color">#ffffff</color>
+    <color name="list_item_dashboard_trainings_subtext">#858585</color>
+    <color name="list_item_dashboard_whistleblower_subtext">#858585</color>
+    <color name="list_item_dashboard_warning_circle_color">#FF0000</color>
+    <color name="list_item_dashboard_training_in_progress_circle_color">#FF8000</color>
+    <color name="list_item_dashboard_training_finished_circle_color">#429759</color>
+    <color name="badge_background_color">#ffffff</color>
+    <color name="textColorMuted">#415565</color>
+    <color name="training_circle_text_color">#ffffff</color>
+    <color name="bottomButtonBackgroundColor">@color/colorPrimary</color>
+    <color name="media_controls_background_color">@color/colorPrimary</color>
+    <color name="list_item_secure_box_subtext">#858585</color>
+    <color name="secure_box_circle_text_color">#ffffff</color>
+    <color name="right_button_border_color">#FFFFFF</color>
+    <color name="postFormSwitchActivated">#00e266</color>
+    <color name="bottom_layout_border_color">#BBBBBB</color>
+    <color name="topBorderBackgroundColor">#FFFFFF</color>
+    <color name="topBorderBorderColor">#BBBBBB</color>
+    <color name="dashboard_refreshing_icon_refresh_color">#FFFFFF</color>
+    <color name="colorPrimaryInverted">#FFFFFF</color>
+    <color name="microphone_circle_background_color">#039BE5</color>
+    <color name="microphone_circle_active_background_color">#FF5252</color>
+    <color name="recordAudioSubtextColor">#BDBDBD</color>
+    <color name="correspondence_send_button_color">#ffffff</color>
+    <color name="list_item_file_delete_cross_color">#E51C23</color>
+    <color name="create_pin_error_color">#E51C23</color>
+    <color name="confirm_pin_error_text_color">#E51C23</color>
+    <color name="correspondence_message_files_muted_text">#5E6970</color>
+    <color name="scroll_bar_color">#B8B8B8</color>
+    <color name="training_messages_cardview_date_text_color">#485766</color>
+    <color name="training_messages_cardview_text_color">#485766</color>
+    <color name="microphone_dialog_background_color">#333C44</color>
+    <color name="microphone_dialog_text_color">#FFFFFF</color>
+    <color name="multiple_choice_border_color">#DDDDDD</color>
+    <color name="multiple_choice_not_selected">#FFFFFF</color>
+    <color name="multiple_choice_selected">#BCE3FF</color>
+    <color name="multiple_choice_selected_wrong">#E21919</color>
+    <color name="multiple_choice_selected_wrong_text_color">#FFFFFF</color>
+    <color name="multiple_choice_selected_correct">#36B55C</color>
+    <color name="multiple_choice_selected_correct_text_color">#FFFFFF</color>
+    <color name="multiple_choice_ripple_color">?android:attr/selectableItemBackground</color>
+    <color name="bottom_button_disabled_text_color">#BBBBBB</color>
+    <color name="bottom_button_enabled_text_color">#FFFFFF</color>
+    <color name="multiple_choice_error_color">#E51C23</color>
+    <color name="multiple_choice_answer_dialog_icon_success">#A5DC86</color>
+    <color name="multiple_choice_answer_dialog_icon_error">#D9534F</color>
+    <color name="list_item_dashboard_no_trainings_circle_color">#039BE5</color>
+    <color name="list_item_dashboard_identification_empty_circle_color">#039BE5</color>
+    <color name="list_item_secure_postbox_list_not_found_circle_color">#FF0000</color>
+    <color name="no_internet_snackbar_retry_color">#EEFF41</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="record_video_button_default_color">#FFFFFF</color>
+    <color name="record_video_button_active_color">#E51C23</color>
+    <color name="record_video_timer_color">#FFFFFF</color>
+    <color name="record_video_buttons_color">#FFFFFF</color>
+    <color name="record_video_background_color">#333333</color>
+
+    <color name="media_controls_progress_background">#685225</color>
+    <color name="media_controls_secondary_progress">#8E661B</color>
+    <color name="media_controls_progress">#FFA500</color>
+    <color name="list_item_case_file_filename_textcolor">#000000</color>
+    <color name="list_item_correspondence_chat_file_filename_textcolor">#000000</color>
+    <color name="information_list_item_divider_color">#BBBBBB</color>
+    <color name="training_continuing_dialog_progress_color">#007DD6</color>
+    <color name="overdue_date_text_color">#F44336</color>
+    <color name="out_of_date_background_color">#F44336</color>
+    <color name="training_messages_cardview_background_color">#FFFFFF</color>
+    <color name="video_loading_progress_color_center">#000000</color>
+    <color name="video_loading_progress_color_end">#FF56A9C7</color>
+    <color name="video_loading_progress_color_start">#000000</color>
+    <color name="cpv_default_color">#2196F3</color>
+    <color name="training_video_background_color">#FFFFFF</color>
+    <color name="video_loading_progress_overlay">#000000</color>
+    <color name="list_item_secure_postbox_list_not_created_circle_color">#FF8000</color>
+    <color name="fingerprint_background_success_color">#009688</color>
+    <color name="fingerprint_background_error_color">#F4511E</color>
+    <color name="fingerprint_background_default_color">#607D8B</color>
+    <color name="fingerprint_textview_default_color">#B9B9B9</color>
+    <color name="fingerprint_textview_success_color">#009688</color>
+    <color name="fingerprint_textview_error_color">#F4511E</color>
+
+
+
+</resources>

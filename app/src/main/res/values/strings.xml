@@ -1,0 +1,25 @@
+<resources>
+    <string name="INTENT_EXTRAS_PIN_CODE" translatable="false">PIN_CODE_4</string>
+    <string name="SHARED_PREF_PIN_CODE_IV" translatable="false">PIN_CODE_IV_4</string>
+    <string name="SHARED_PREF_ENCRYPTED_PIN_CODE" translatable="false">ENCRYPTED_PIN_CODE_4</string>
+    <string name="GOT_ETHICS_KEY_NAME" translatable="false">GotEthicsFingerprintTestKey4</string>
+
+    <string name="app_name">FingerPrintTestApplication</string>
+    <string name="follow_case_choice_title">Create post box</string>
+    <string name="create_post_box_text_1">Please open an anonymous and secure post box. This makes it safer and easier for us to communicate.</string>
+    <string name="create_post_box_text_2">Use the post box if you want to send more information about the case or answer the questions we send to you. The post box can\\\'t be linked to you and is anonymous.</string>
+    <string name="create_post_box_text_3">If you have already created a post box on this phone use that pin code to add this report to your secure post box.</string>
+    <string name="create_pin_headline_text">Create your secure post box pin code</string>
+    <string name="forgot_pin_text">Forgot pin code</string>
+    <string name="follow_case_choice_back_button_text">Back</string>
+    <string name="follow_case_choice_send_button_text">Send report</string>
+    <string name="permissions">Permissions</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="touch_sensor">Touch sensor</string>
+    <string name="fingerprint_recognized">Fingerprint recognized</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized</string>
+    <string name="confirm_fingerprint_to_continue">Confirm fingerprint to continue</string>
+    <string name="confirm_fingerprint_to_login_to_your_secure_postbox">Confirm fingerprint to login to your secure postbox</string>
+</resources>
